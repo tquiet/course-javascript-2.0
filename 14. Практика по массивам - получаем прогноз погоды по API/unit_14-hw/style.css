@@ -1,0 +1,41 @@
+html,
+body {
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 20px;
+}
+
+.inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.widget {
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 200px;
+    min-height: 130px;
+    /* text-align: center; */
+    padding: 5px;
+    
+}
+
+.widget__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.widget__content{
+    display: flex;
+    align-items: center;
+}
